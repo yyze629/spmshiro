@@ -20,3 +20,5 @@
 	<script type="text/javascript" src="plugins/attention/zDialog/zDialog.js"></script>
 	<!--引入弹窗组件end-->
 	<script type="text/javascript" src="static/js/jquery.tips.js"></script>
+	<!-- 头部日期时间显示控件 -->
+	<script type="text/javascript" src="static/js/Clock.js"></script>

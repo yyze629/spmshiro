@@ -9,6 +9,18 @@
 	<name>yinyang-spmshirofr-web</name>
 	<url>http://maven.apache.org</url>
 	
+	<profiles>
+		<profile>
+			<id>disable-java8-doclint</id>
+			<activation>
+				<jdk>[1.8,)</jdk>
+			</activation>
+			<properties>
+				<additionalparam>-Xdoclint:none</additionalparam>
+			</properties>
+		</profile>
+	</profiles>
+
 	<properties>
 		<!--spring -->
 		<spring.version>4.0.6.RELEASE</spring.version>

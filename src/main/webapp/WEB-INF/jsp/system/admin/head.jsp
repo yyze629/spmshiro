@@ -5,7 +5,9 @@
 			  
 			  <ul class="nav ace-nav pull-right">
 			  
-			  
+			  		<li>
+			  			<SPAN id=clock style="color: black;"></SPAN>
+			  		</li>
 					<li class="grey">
 						<a href="javascript:alert('预留功能,待开发');" class="dropdown-toggle" data-toggle="dropdown">
 							<i class="icon-tasks"></i>
@@ -160,6 +162,9 @@
 		  </div><!--/.navbar-inner-->
 		</div><!--/.navbar-->
 	
-	
+		<SCRIPT type=text/javascript> 
+		    var clock = new Clock();
+		    clock.display(document.getElementById("clock"));
+		</SCRIPT>
 		<!--引入属于此页面的js -->
 		<script type="text/javascript" src="static/js/myjs/head.js"></script>
